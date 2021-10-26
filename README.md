@@ -1,3 +1,5 @@
+# Run the current image 
+
 ## Pull the current image
 
 ```
@@ -14,7 +16,7 @@ sudo docker run -p 8080:80 -it akemery/dampserver
 
 Open a browser et visit http://localhost:8080
 
-# Do it yourself
+# Try it yourself
 
 ## Create account and repository
 
