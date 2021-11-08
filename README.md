@@ -1,8 +1,16 @@
 # Run the current image 
 
-## Pull the current image
+## Pull image
 
 ```
+sudo docker pull akemery/dampserver:latest 
+```
+
+## Build and push images the current image
+
+```
+sudo docker build -t akemery/dampserver:latest
+sudo docker login
 sudo docker push akemery/dampserver:latest
 
 ```
@@ -30,8 +38,13 @@ for ubuntu https://docs.docker.com/engine/install/ubuntu/
 
 ## build docker image
 
+Don't forget to create a Dockerfile inside current directory.
+
+
 ```
 sudo docker build -t <yourdockerid/yourrepositoryname> .
+sudo docker login
+sudo docker push <yourdockerid/yourrepositoryname> 
 ```
 
 ## Run your image with port forwading
