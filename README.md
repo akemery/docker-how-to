@@ -9,7 +9,7 @@ sudo docker pull akemery/dampserver:latest
 ## Build and push images the current image
 
 ```
-sudo docker build -t akemery/dampserver:latest
+sudo docker build -t akemery/dampserver:latest .
 sudo docker login
 sudo docker push akemery/dampserver:latest
 
