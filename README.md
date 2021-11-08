@@ -2,11 +2,8 @@
 
 ```
 git clone https://github.com/akemery/docker-how-to.git
-
 cd docker-how-to
-
 ``` 
-
 
 ## Pull image
 
