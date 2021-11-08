@@ -1,9 +1,13 @@
 ## Clone github repo
 
+To clone github repo just run the following command:
+
+
 ```
 git clone https://github.com/akemery/docker-how-to.git
 cd docker-how-to
-``` 
+```
+ 
 
 ## Pull image
 
@@ -17,9 +21,7 @@ sudo docker pull akemery/dampserver:latest
 sudo docker build -t akemery/dampserver:latest .
 
 ```
-
 ## Run the current image
-
 ```
 sudo docker run -p 8080:80 -it akemery/dampserver
 
@@ -41,7 +43,8 @@ for ubuntu https://docs.docker.com/engine/install/ubuntu/
 
 ## build docker image
 
-Don't forget to create a Dockerfile inside current directory.
+Don't forget to create a Dockerfile inside current directory. To know how to write a Dockerfile 
+visit the following link: https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 
 ```
