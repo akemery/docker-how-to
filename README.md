@@ -1,4 +1,12 @@
-# Run the current image 
+## Clone github repo
+
+```
+git clone https://github.com/akemery/docker-how-to.git
+
+cd docker-how-to
+
+``` 
+
 
 ## Pull image
 
@@ -10,8 +18,6 @@ sudo docker pull akemery/dampserver:latest
 
 ```
 sudo docker build -t akemery/dampserver:latest .
-sudo docker login
-sudo docker push akemery/dampserver:latest
 
 ```
 
